@@ -1,0 +1,9 @@
+<div class="card-columns">
+    <div class="card" *ngFor="let post of postList" >
+        <div class="card-body">
+          <h5 class="card-title">{{ post.title }}</h5>
+          <p class="card-text">{{ post.description }}</p>
+          <p class="card-text"><small class="text-muted">{{ post.createdAt }}</small></p>
+        </div>
+      </div>
+</div>
